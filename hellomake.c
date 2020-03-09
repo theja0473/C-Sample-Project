@@ -1,5 +1,5 @@
-#include <hellomake.h>
-
+//#include <hellomake.h>
+#include <stdio.h>
 int main() {
 
   int a=5,b=6;
@@ -8,7 +8,7 @@ int main() {
   printf("Start Programming ...\n");
   printf("a=%d,b=%d",a,b);
   // call a function in another file
-  myPrintHelloMake();
+  //  myPrintHelloMake();
 	printf("End Of Program...\n");
   return(0);
 }
